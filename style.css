@@ -17,27 +17,62 @@
 nav {
     background-color: var(--black-primary);
     display: flex;
-    justify-content: space-around;
-    padding: 5%;
+    justify-content: space-between;
+    padding: 5% 8%;
     color: white;
-    font-size: 2.1rem;
     align-items: center;
 }
+    
 
 .logo-patinha {
-    width: 15%;
+    width: 3rem;
     margin-right: 5px;
 }
 
-.icone-whatsapp {
-    width: 10%;
+.icones {
+    width: 3rem;
 }
 
 .caixa {
     display: flex;
     align-items: center;
 }
+   
+
+.somente-desktop {
+    display: none;
+}
 
 .texto-logo {
     font-weight: bold;
+    font-size: 1.5rem;
+}
+
+@media (min-width:  769px) {
+    .icones {
+        width: 2rem;
+    }
+
+    nav {
+        padding: 1% 5%;
+        justify-content: space-between;
+        min-height: 70px;
+    }
+
+    .logo-patinha {
+        width: 2.5rem;
+    }
+
+    .texto-logo {
+        font-size: 15px;
+    }
+
+    .espaco-entre {
+        justify-content: space-evenly;
+        min-width: 15%;
+    }
+
+    .somente-desktop {
+        display: inline;
+    }
 }
