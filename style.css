@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto Serif;
+}
+
+:root{
+    --black-primary: #000000;
+    --pink-dark: #EB4A7B;
+    --pink-baby: #FD6A9A;
+
+
+}
+
+
+nav {
+    background-color: var(--black-primary);
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    color: white;
+    font-size: 2.1rem;
+    align-items: center;
+}
+
+.logo-patinha {
+    width: 15%;
+    margin-right: 5px;
+}
+
+.icone-whatsapp {
+    width: 10%;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+}
+
+.texto-logo {
+    font-weight: bold;
+}
