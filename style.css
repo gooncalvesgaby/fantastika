@@ -9,10 +9,7 @@
     --black-primary: #000000;
     --pink-dark: #EB4A7B;
     --pink-baby: #FD6A9A;
-
-
 }
-
 
 nav {
     background-color: var(--black-primary);
@@ -23,7 +20,6 @@ nav {
     align-items: center;
 }
     
-
 .logo-patinha {
     width: 3rem;
     margin-right: 5px;
@@ -38,7 +34,6 @@ nav {
     align-items: center;
 }
    
-
 .somente-desktop {
     display: none;
 }
@@ -46,6 +41,32 @@ nav {
 .texto-logo {
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+
+header {
+    background-image: url("./assets/cachorro.png");
+    min-height: 70vh;
+    background-size: cover;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.img-patinha {
+    width: 5rem;
+    margin-top: 3rem;
+}
+
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 2.2rem;
+    text-align: center;
 }
 
 @media (min-width:  769px) {
@@ -74,5 +95,17 @@ nav {
 
     .somente-desktop {
         display: inline;
+    }
+
+    header {
+        background-image: url(./assets/Grupo\ 486.png);
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        padding: 7%;
+    }
+
+    h1 {
+        font-size: 3rem;
     }
 }
