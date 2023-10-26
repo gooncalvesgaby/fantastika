@@ -69,6 +69,40 @@ h1 {
     text-align: center;
 }
 
+.tosa {
+    color: #3A342F;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 2rem;
+    margin-top: 25%;
+    margin-left: 5%;
+}
+
+section {
+    background-image: url("./assets/Grupo\ 484.png");
+    min-height: 70vh;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.texto-section {
+    color: #3A342F;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5%;
+}
+
+.fale-conosco {
+    background-color: #3A342F;
+    color: #F4F2F3;
+    width: 40%;
+    height: 40px;
+    border-radius: 10rem;
+    font-size: 15px;
+    margin-top: 3%;
+    margin-left: 5%;
+}
 @media (min-width:  769px) {
     .icones {
         width: 2rem;
@@ -107,5 +141,10 @@ h1 {
 
     h1 {
         font-size: 3rem;
+    }
+
+    .img-patinha {
+        width: 5rem;
+        margin-top: 2rem;
     }
 }
