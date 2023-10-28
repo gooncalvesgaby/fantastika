@@ -77,12 +77,23 @@ h1 {
 }
 
 section {
-    background-image: url("./assets/Grupo\ 484.png");
     min-height: 70vh;
     background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+
+}
+
+.section-banho-tosa {
+    background-image: url("./assets/Grupo\ 484.png");
+    padding: 4rem 2rem;
+}
+
+.section-mordomia {
+    background-image: url("./assets/Grupo\ 496.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 4rem 2rem;
 }
 
@@ -101,6 +112,33 @@ section {
     font-size: 15px;
     border: none;
 }
+
+.botao-mordomia {
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 40%;
+    height: 40px;
+    border-radius: 10rem;
+    font-size: 15px;
+    border: none;
+    font-weight: bold
+}
+
+.mordomia {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 2rem;
+}
+
+.titulo-mordomia {
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
 @media (min-width:  769px) {
     .icones {
         width: 2rem;
