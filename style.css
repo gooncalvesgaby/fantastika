@@ -74,8 +74,6 @@ h1 {
     font-weight: bold;
     font-family: serif;
     font-size: 2rem;
-    margin-top: 25%;
-    margin-left: 5%;
 }
 
 section {
@@ -85,12 +83,13 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    padding: 4rem 2rem;
 }
 
 .texto-section {
     color: #3A342F;
+    margin-bottom: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 5%;
 }
 
 .fale-conosco {
@@ -100,8 +99,7 @@ section {
     height: 40px;
     border-radius: 10rem;
     font-size: 15px;
-    margin-top: 3%;
-    margin-left: 5%;
+    border: none;
 }
 @media (min-width:  769px) {
     .icones {
@@ -132,9 +130,9 @@ section {
     }
 
     header {
-        background-image: url(./assets/Grupo\ 486.png);
+        background-image: url(./assets/Grupo\ 486@2x.png);
         background-size: cover;
-        background-position: center;
+        background-position: bottom;
         min-height: 100vh;
         padding: 7%;
     }
@@ -146,5 +144,32 @@ section {
     .img-patinha {
         width: 5rem;
         margin-top: 2rem;
+    }
+
+    section {
+        background-image: url("./assets/Interseção\ 16.png");
+        background-color: #f4f2f3;
+        background-repeat: no-repeat;
+        background-position: right;
+        min-height: 100vh;
+        padding: 8rem 0 0 3rem;
+    }
+
+    .fale-conosco {
+        width: 9rem;
+        height: 3rem;
+        font-weight: none;
+        font-size: 1.2rem;
+
+    }
+
+    .texto-section {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .tosa {
+        font-size: 2.5rem;
+        margin-bottom: 0.7rem
     }
 }
