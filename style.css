@@ -137,8 +137,6 @@ section {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
-
 @media (min-width:  769px) {
     .icones {
         width: 2rem;
@@ -210,4 +208,30 @@ section {
         font-size: 2.5rem;
         margin-bottom: 0.7rem
     }
+
+    .section-mordomia {
+        background-image: url("./assets/Grupo\ 480.png");
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        padding: 8rem 0 0 3rem;
+        background-size: cover;
+        display: flex;
+    }
+
+    .mordomia {
+        text-align: right;
+        padding: 0px 20rem;
+        font-size: 2.5rem;
+    }
+
+    .titulo-mordomia {
+        text-align: right;
+        padding: 0px 20rem;
+        font-size: 1.2rem;
+    }
+
+    .botao-mordomia {
+        width: 10rem
+    }
+
 }
