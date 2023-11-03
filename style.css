@@ -53,6 +53,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    background-position: bottom;
 }
 
 .img-patinha {
@@ -88,13 +89,18 @@ section {
 .section-banho-tosa {
     background-image: url("./assets/Grupo\ 484.png");
     padding: 4rem 2rem;
+    background-repeat: no-repeat;
+    background-color: #F4F2F3;
 }
+
+
 
 .section-mordomia {
     background-image: url("./assets/Grupo\ 496.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 4rem 2rem;
+    background-position: center;
 }
 
 .texto-section {
@@ -135,6 +141,28 @@ section {
     color: #FFFFFF;
     margin-bottom: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.patrocinio {
+    width: 100vw0;
+    height: 10vh;
+    color: #FD6A9A;
+}
+
+.apoio {
+    margin-top: 1rem;
+    margin-left: 13rem;
+}
+
+.havaianas {
+    width: 10rem;
+    margin-left: 3rem;    
+}
+
+.americanas {
+    width: 8rem;
+    font-family: Proxima Nova, Bold;
+    margin-left: 2rem
 }
 
 @media (min-width:  769px) {
@@ -213,25 +241,33 @@ section {
         background-image: url("./assets/Grupo\ 480.png");
         background-repeat: no-repeat;
         min-height: 100vh;
-        padding: 8rem 0 0 3rem;
         background-size: cover;
         display: flex;
+        justify-content: flex-end;
+        align-items: end;
+        padding-right: 15rem;
     }
 
     .mordomia {
-        text-align: right;
-        padding: 0px 20rem;
         font-size: 2.5rem;
+        width: 20%;
+        margin-right: 10rem
     }
 
     .titulo-mordomia {
-        text-align: right;
-        padding: 0px 20rem;
         font-size: 1.2rem;
     }
 
     .botao-mordomia {
-        width: 10rem
+        width: 10rem;
+        margin-right: 13rem;
     }
+
+    .patrocinio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
 
 }
